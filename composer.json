@@ -1,0 +1,22 @@
+{
+    "name": "jose/prueba",
+    "description": "practica en php",
+    "type": "proyect",
+    "require": {
+        "phpunit/phpunit": "9.6",
+        "symfony/var-dumper": "6.0.x-dev"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Rafael",
+            "email": "51763157+joserafa78@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
