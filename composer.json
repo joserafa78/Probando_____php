@@ -3,7 +3,7 @@
     "description": "practica en php",
     "type": "proyect",
     "require": {
-        "phpunit/phpunit": "9.6",
+        "phpunit/phpunit": "9.6.x-dev",
         "symfony/var-dumper": "6.0.x-dev"
     },
     "license": "mit",

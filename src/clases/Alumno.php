@@ -3,9 +3,9 @@
 namespace App\clases;
 
 use App\clases\astracta\Humano;
-use PhpParser\Node\Expr\Cast\String_;
 
-class alumno extends Humano
+
+class Alumno extends Humano
 {
     private $nota = [];
     public function __construct($nombre,  $apellido,  $identificacion)
@@ -20,5 +20,9 @@ class alumno extends Humano
     function muestrNotas(): array
     {
         return $this->nota;
+    }
+    function cuentaNotas(): int
+    {
+        return count($this->nota);
     }
 }

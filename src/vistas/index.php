@@ -13,12 +13,14 @@
     <p>Muestra los Resultado de las Clases</p>
 
     <?php
-    require_once('vendor/autoload.php');
 
-    use App\clases\alumno;
+
     use App\clases\Nota;
+    use App\clases\Alumno;
 
-    $estudante = new alumno("jose", "Ulloa", 15324);
+    $ca = new Nota("Castellano", 15);
+    echo $ca->getMateria();
+    $estudante = new Alumno("jose", "Ulloa", 15324);
     $calif = new Nota("Matematica", 12);
     $calif2 = new Nota("Fisica", 16);
     $calif3 = new Nota("Castellano", 13);

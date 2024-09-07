@@ -24,7 +24,7 @@ class Nota
     }
 
     //Getter
-    public function getMateria()
+    public function getMateria(): string
     {
         return $this->materia;
     }
