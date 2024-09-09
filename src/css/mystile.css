@@ -1,0 +1,81 @@
+/* BOTONES JOSERAFA */
+
+.boton{
+    color: #fff;
+    display: inline-block;/* Se pono uno al lado del otro */
+    font-size: 1.25em;
+    margin: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;/* Quita el sub-brayado */
+    box-shadow: 0px 3px 0px #373c3c;
+}
+
+.boton i{
+    margin-right: 10px;
+}
+.boton.azul{
+    background: #3498bd;
+    box-shadow: 0px 3px 0px #233792;
+}
+.boton.naranja{
+    background: #fc6119;
+    box-shadow: 0px 3px 0px #5c2c0b;
+}
+.boton.verde{
+    background: #10e260;
+    box-shadow: 0px 3px 0px #075a23;
+}
+.boton.amarillo{
+    background: #f2ff36;
+    box-shadow: 0px 3px 0px #705c02;
+    color: blue;
+}
+.boton.rojo{
+    background: #eb0808;
+    box-shadow: 0px 3px 0px #300101;
+    color: rgb(253, 253, 253);
+}
+.boton.negro{
+    background: #3d3a3a;
+    box-shadow: 0px 3px 0px #111010;
+    color: rgb(253, 253, 253);
+}
+.boton.vinotinto{
+    background: #680404;
+    box-shadow: 0px 3px 0px #1b0101;
+    color: rgb(253, 253, 253);
+}
+.boton.blanco{
+    background: #f7f4f4;
+    box-shadow: 0px 3px 0px #adadad;
+    color: blue;
+}
+/* TAMAÑOS:mini,pequeño,medio,largo,extralargo */
+.boton.mini{
+    width: 10%;
+}
+.boton.pequeño{
+    width: 25%;
+}
+.boton.medio{
+    width: 35%;
+}
+.boton.largo{
+    width: 50%;
+}
+.boton.extralargo{
+    width: 75%;
+}
+.boton.radio{
+    border-radius: 50px;
+}
+.boton:hover{
+    transform: scale(1.025);/* Escala Reducida, 1=Tamaño Real */
+    cursor: pointer;
+}
+.boton:active{
+    box-shadow: 0px 0px 0px;
+    padding: 9px;
+    text-decoration: none;
+}

@@ -6,7 +6,9 @@ $page = $_GET['page'] ?? null;
 
 switch ($page) {
     case 'home':
-        require("src/vistas/index.php");
+        //require("src/vistas/index.php");
+        //require("src/vistas/home.php");
+        require("src/vistas/bootstrap.php");
         break;
     case 'contact':
         require("src/vistas/contact.php");
