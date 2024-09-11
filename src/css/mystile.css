@@ -79,3 +79,24 @@
     padding: 9px;
     text-decoration: none;
 }
+/* Botones con Degradado */
+.botonRect {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .primaryDeg {background-image: linear-gradient(to right, #007bff, #4ab2e2);} 
+  .primaryDeg:hover {background-image: linear-gradient(to right, #0b7dda, #4ab2e2);}
+  .secondaryDeg {background-image: linear-gradient(to right, #6c757d, #adb5bd);} 
+  .secondaryDeg:hover {background-image: linear-gradient(to right, #848b92, #adb5bd);}
+  .successDeg {background-image: linear-gradient(to right, #28a745, #56c150);} 
+  .successDeg:hover {background-image: linear-gradient(to right, #34b556, #56c150);}
+  .warningDeg {background-image: linear-gradient(to right, #ffc107, #ffda4e);} 
+  .warningDeg:hover {background-image: linear-gradient(to right, #ffb200, #ffda4e);}
+  .dangerDeg {background-image: linear-gradient(to right, #dc3545, #e0666e);} 
+  .dangerDeg:hover {background-image: linear-gradient(to right, #d32838, #e0666e);}
