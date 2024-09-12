@@ -8,7 +8,8 @@ switch ($page) {
     case 'home':
         //require("src/vistas/index.php");
         //require("src/vistas/home.php");
-        require("src/vistas/bootstrap.php");
+        //require("src/vistas/bootstrap.php");
+        require("src/vistas/formulariPractica.php");
         break;
     case 'contact':
         require("src/vistas/contact.php");
