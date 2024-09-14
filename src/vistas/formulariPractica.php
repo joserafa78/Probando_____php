@@ -59,7 +59,7 @@ $color = $_COOKIE["color"] ?? "dark";
         <h1 class=" fs-2"> Practica de formulario</h1>
 
         <div class='card card-body'>
-            <form action='url' method='post' name='Nombre'>
+            <form action=' <?= htmlspecialchars($_SERVER['PHP_SELF']) ?> ' method='post' name='Nombre'>
                 <!-- Contenido -->
                 <div class='form-group'>
                     <label for=''>Nombre</label>
